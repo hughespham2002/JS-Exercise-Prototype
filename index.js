@@ -105,9 +105,9 @@ Baby.prototype.play = function() {
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
   1. this in method returns an object but in functions returns global objects
-  2. 
-  3. 
-  4. 
+  2. Whenever a preceding dot calls a function, the object before the dot is this
+  3. Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+  4. Whenever we use JavaScript's call or apply method, this is explicitly defined.
 */
 
 
